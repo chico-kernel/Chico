@@ -10,4 +10,6 @@ void outb(uint16_t port, uint8_t value)
 void kernel_main(void)
 {
     outb(QEMU_SERIAL_PORT, 'A');
+    return;
+
 }
